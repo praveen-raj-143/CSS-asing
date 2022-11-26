@@ -1,0 +1,112 @@
+body{
+    background-color: black;
+    margin: 0px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    
+}
+p{
+    margin-top: 43%;
+}
+.item0{
+
+}
+.item0:hover{
+    background-color: yellowgreen;
+    transform: rotateZ(-45deg);
+    transition-duration: 4s;
+}
+.item1{
+
+}
+.item1:hover{
+    background-color: yellowgreen;
+    transform: rotateZ(360deg);
+    transition-duration: 4s;
+}
+.item2{
+
+}
+.item2:hover{
+    background-color: yellowgreen;
+    transform: rotateZ(-360deg);
+    transition-duration: 4s;
+}
+.item3{
+
+}
+.item3:hover{
+    background-color: yellowgreen;
+    transform: rotateY(360deg);
+    transition-duration: 4s;
+}
+.item4{
+
+}
+.item4:hover{
+    background-color: yellowgreen;
+    transform: rotateY(180deg);
+    transition-duration: 4s;
+}
+.item5{
+
+}
+.item5:hover{
+    background-color: yellowgreen;
+    transform: rotateX(360deg);
+    transition-duration: 4s;
+}
+.item6{
+
+}
+.item6:hover{
+    background-color: yellowgreen;
+    transform: rotateX(180deg);
+    transition-duration: 4s;
+}
+.item7{
+
+}
+.item7:hover{
+    width: 170px;
+    height: 170px;
+    background-color: yellowgreen;
+    font-size: 23px;
+    transition-duration: 2s;
+}
+.item8{
+
+}
+.item8:hover{
+    background-color: yellowgreen;
+    box-shadow: 0px -25px black;
+    transition-duration: 2s;
+}
+.item9{
+
+}
+.item9:hover{
+    background-color: yellowgreen;
+    box-shadow: transparent;
+    filter: blur(3px);
+    transition-duration: 4s;
+}
+@media screen and (min-width:330px) and (max-width:580px) {
+    .item{
+        width: 100px;
+        height: 100px;
+    }
+    
+}
